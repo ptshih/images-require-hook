@@ -1,0 +1,46 @@
+{
+  "name": "images-require-hook",
+  "version": "1.0.0",
+  "description": "A require hook to support importing images in universal javascript with webpack",
+  "main": "lib/images-require-hook.js",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptshih/images-require-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptshih/images-require-hook/issues"
+  },
+  "homepage": "https://github.com/ptshih/images-require-hook",
+  "keywords": [
+    "webpack",
+    "isomorphic",
+    "universal",
+    "javascript",
+    "require",
+    "hook"
+  ],
+  "author": {
+    "name": "Peter Shih",
+    "email": "ptshih@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "md5-file": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
