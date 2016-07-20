@@ -71,3 +71,7 @@ const logoImg = <img src={logo} alt="logo" />; // JSX
 - png
 - gif
 - svg
+
+## Known Issues
+
+- NOT COMPATIBLE with: https://github.com/tcoopman/image-webpack-loader
