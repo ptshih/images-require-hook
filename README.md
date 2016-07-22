@@ -1,6 +1,21 @@
 images-require-hook
 ===
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [images-require-hook](#images-require-hook)
+  - [Why is this needed?](#why-is-this-needed)
+  - [How does it work?](#how-does-it-work)
+  - [How do I use it?](#how-do-i-use-it)
+      - [Parameters](#parameters)
+      - [Examples](#examples)
+  - [What is supported?](#what-is-supported)
+  - [Known Issues](#known-issues)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 A require hook to support importing images in universal javascript with Webpack.
 
 This is similar to Babel's [babel/register](https://babeljs.io/docs/usage/require/).

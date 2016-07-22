@@ -8,11 +8,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "build": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run build",
+    "docs": "doctoc ."
   },
   "babel": {
     "presets": [
-      "es2015"
+      "es2015",
+      "stage-0"
     ]
   },
   "repository": {
@@ -41,6 +44,8 @@
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "doctoc": "^1.2.0"
   }
 }
