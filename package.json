@@ -1,6 +1,6 @@
 {
   "name": "images-require-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A require hook to support importing images in universal javascript with webpack",
   "main": "lib/images-require-hook.js",
   "engines": {
