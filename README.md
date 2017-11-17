@@ -66,7 +66,7 @@ Require this module like you do for `require('babel-core/register')` or at the v
 
 or
 
-`require('images-require-hook')(['jpg', 'jpeg', 'png', 'gif', 'svg'], '/webpack_assets_directory');`
+`require('images-require-hook')(['.jpg', '.jpeg', '.png', '.gif', '.svg'], '/webpack_assets_directory');`
 
 Finally, to require or import images in your Javascript...
 
